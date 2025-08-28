@@ -1,0 +1,18 @@
+Algoritmo ascensorcontemperatura
+	
+	Definir piso, temperatura Como Entero;
+	
+	Escribir " ingrese al piso que desea ir ";
+	Leer piso;
+	
+	Escribir " ingrese su temperatura actual ";
+	Leer temperatura;
+	
+	Si temperatura>=50 y temperatura<=80 Entonces
+		Escribir " siga su temperatura es normal ";
+		
+	SiNo
+		Escribir " el umbral esta por encima de lo normal ";
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,39 @@
+algoritmo campeonato 
+
+ Definir partido, ganador, empatado, perdido  Como Caracter;
+
+Definir puntos, equipo1, equipo2 Como Real;
+
+Escribir " ingrese el total de goles del equipo uno ";
+Leer equipo1;
+
+Escribir" ingrese el total de goles del equipo dos ";
+Leer equipo2;
+
+Escribir " ingrese el resultado del partido, sea (ganado, perdido o empatado). ";
+
+Leer partido;
+
+Segun partido Hacer 
+
+Caso ganador:
+
+Escribir " eres el ganador de este partido ";
+puntos <- 20
+
+Caso perdido:
+
+Escribir " lastimosamente has perdido, suerte en el próximo partido ";
+
+puntos <- 0
+
+caso empatado:
+
+Escribir " cada equipo tendrá una puntuación de de 5 puntos cada uno ";
+
+FinSegun 
+
+
+
+
+    finalgoritmo

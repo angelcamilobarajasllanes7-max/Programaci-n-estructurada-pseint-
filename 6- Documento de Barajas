@@ -1,0 +1,16 @@
+Algoritmo temperaturaGrados
+	
+	Definir temperatura Como Entero;
+	
+	Escribir " ingrese su temperatura ";
+	Leer temperatura;
+	
+	Si temperatura>=20 y temperatura<45 Entonces
+		Escribir " la temperatura es adecuada ";
+		
+	SiNo
+		Escribir " esta fuera del rango deseado ";
+		
+	FinSi
+	
+FinAlgoritmo

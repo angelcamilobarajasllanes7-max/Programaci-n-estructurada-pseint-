@@ -1,0 +1,21 @@
+Algoritmo ascensorPeso
+	
+	Definir piso, peso Como Real;
+	
+	Escribir " digite el piso al que desea ir ";
+	Leer piso;
+	
+	Escribir " dite su peso en (kg)";
+	Leer peso;
+	
+	si peso>=20 y peso<=70 Entonces
+		Escribir " podras entrar al ascensor y podras ser llevado a tu piso  " piso;
+		
+	SiNo
+		Escribir " el ascensor esta sobrecarcagado, lamentablemente debes subir por las escaleras ";
+		
+		
+	FinSi
+	
+	
+FinAlgoritmo

@@ -1,0 +1,65 @@
+algoritmo menu 
+
+Definir subtotal, totalcondescuento, totalsindescuento, metodopago Como Real;
+
+Definir plato, bebida Como Caracter;
+
+Escribir "-------- MENU--------";
+
+
+Escribir ".         PLATOS.                ";
+
+
+Escribir " carne                     12.000";
+Escribir " pollo.                     16.000";
+Escribir " sancocho.            20.000";
+
+Escribir "          BEBIDAS.                    ";
+
+Escribir " gaseosa.                 10.000";
+Escribir " soda                        3.000";
+Escribir " cerveza.                   5.000";
+
+
+Escribir " digite el precio del plato ";
+Leer plato; 
+
+Escribir " digite precio de la bebida ";
+Leer bebida; 
+
+Escribir" digite el método de pago ";
+Leer metodopago;
+
+subtotal <- plato + bebida;
+
+
+Segun metodopago Hacer 
+
+caso efectivo:
+
+totaldescuento <- subtotal * 0.04;
+Escribir " tendrás un descuento de:";
+
+caso tarjeta:
+totaldescuento <- subtotal * 0.02;
+
+Escribir " tendrás un descuento de:";
+
+Caso cheque:
+totaldescuento <- subtotal * 0.01
+
+De Otro Modo:
+
+Escribir " ladron ";
+
+FinSegun 
+
+
+
+
+
+
+
+
+
+    finalgoritmo

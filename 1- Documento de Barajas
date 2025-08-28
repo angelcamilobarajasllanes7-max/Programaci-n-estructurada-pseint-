@@ -1,0 +1,17 @@
+Algoritmo sensortemperatura
+	
+	Definir tempenormal Como Entero;
+	
+	Escribir " digite su temperatura ";
+	Leer tempenormal;
+	
+	Si tempenormal>=30 y tempenormal<=70 Entonces 
+		Escribir " la temperatura es normal ";
+		
+	SiNo
+		Escribir " esta por encima del umbral, ALERTA ";
+		
+		
+	FinSi
+	
+FinAlgoritmo
